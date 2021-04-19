@@ -1,4 +1,4 @@
-h1 align="center">JavaScript Arrays vs Objects</h1>
+<h1 align="center">JavaScript Arrays vs Objects</h1>
 <br><br>
 <div align="center">
   <img src="https://i.imgur.com/NnFrykD.png" alt="Arrays vs Objects">
