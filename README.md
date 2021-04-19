@@ -237,3 +237,5 @@ function evenCaps(sentence) {
   return newSentence;
 }
 ```
+
+### Tasks 5: Complete all JavaScript Problems
