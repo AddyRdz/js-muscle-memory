@@ -181,7 +181,7 @@ if (num < 0) {
 }
 ```
 
-### Task 4: Function Muscle Memory
+### Task 5: Function Muscle Memory
 Practice typing the syntax for functions. **Type each snippet 10 times.** Focus on using
 proper style and indentation. Be sure to test your code by running it after
 each repetition. You'll be surprised and also annoyed at what details you missed!
@@ -238,4 +238,4 @@ function evenCaps(sentence) {
 }
 ```
 
-### Tasks 5: Complete all JavaScript Problems
+### Tasks 6: Complete all JavaScript Problems
