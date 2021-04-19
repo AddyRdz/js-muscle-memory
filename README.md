@@ -1,4 +1,4 @@
-## Problem Set W1D1
+## JS Muscle Memory
 This problem set will test your understanding of how JavaScript is evaluated.
 Check your answers by running the lines code. Type out these expressions and avoid
 copy & paste. Get used to typing JavaScript! Some of these answers are obvious but
