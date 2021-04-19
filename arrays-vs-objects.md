@@ -156,6 +156,7 @@ h1 align="center">JavaScript Arrays vs Objects</h1>
 <br><br>
 **Which (intermediate) data structure would you choose to collect your data for this problem?**
 * Hint: Does order matter?
+
 ```js
 // repeatedChars
 // Write a function `repeatedChars(words)` which takes a string and returns an array of all 
