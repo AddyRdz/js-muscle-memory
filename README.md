@@ -1,11 +1,18 @@
+
 ## JS Muscle Memory
 This problem set will test your understanding of how JavaScript is evaluated.
-Check your answers by running the lines code. Type out these expressions and avoid
-copy & paste. Get used to typing JavaScript! Some of these answers are obvious but
-run the code anyway to get familiar with the workflow for running JavaScript.
+Check your answers by running the lines code in your browser console. 
+
+Suggestions: 
+- Type out these expressions and avoid copy & paste. 
+- Get used to typing JavaScript! Some of these answers are obvious but run the code anyway to get familiar with the workflow for running JavaScript.
+
 ### Task 1
-Predict what the following JavaScript expressions will evaluate to. 
-- [ ] Complete all of these inside of the Chrome DevTools
+- Goal: Predict what the following JavaScript expressions will evaluate to. 
+- Task: Complete all of the expressions below inside of the Chrome DevTools.
+- Note: If a method or output is unexpected put a note as a comment in the app.js file for task 1. 
+
+
 ```js
 4 + 4 / 2
 (2 + -7) * 3
@@ -40,11 +47,11 @@ true && !(false || false)
 'engineering'.indexOf('r') > -1
 'science'.indexOf('x') === -1
 ```
+
 ### Task 2
-Predict what the `console.log` lines will print out. Test your work by writing
-these code snippets to `.js` files and running them. Put each snippet into it's own
-`.js` file and see what the `console.log`s print out. Reference the `running_javascript`
-reading for how to run `.js` files.
+- Goal: Practice predicting what the `console.log` lines will print out. 
+- Task: Test your work by writing these code snippets to `app.js` files and running them in the browser. 
+- Note: If you have 'NodeJS' installed on your machine, you can run the command `node app.js` and it will execute the js in that environment (instead of requiring a browser).
 ```js
 // 1
 let idx = 'abcde'.indexOf('D');
@@ -78,11 +85,15 @@ console.log(lastChar); // ?
 console.log(sentence.indexOf(lastChar)); // ?
 ```
 ### Task 3: Conditionals
-Predict what will happen in the following examples. Which `console.log`s will actually
-print?
-To check your work, type these code snippets to `.js` files. No copy and pasting!
-After, feel free to play around with the variable (by assigning your own value)
+
+- Goal: Practice predicting what the `console.log` lines will print out. 
+- Task: Test your work by writing these code snippets to `app.js` files and running them in the browser. 
+- Note: If you have 'NodeJS' installed on your machine, you can run the command `node app.js` and it will execute the js in that environment (instead of requiring a browser).
+- Note: No copy and pasting!
+- Note: After, feel free to play around with the variable (by assigning your own value)
 in each example to experiment!
+
+
 ```js
 // 5
 let age = 30; // try different numbers here
@@ -150,12 +161,14 @@ if (num % 2 === 0) {
 }
 ```
 ### Task 4: Conditional Muscle Memory
-Practice typing the syntax for conditionals. **Type each snippet 10 times each to
-burn the muscle memory into your typing fingers!** Be sure to use proper spacing and
-indentation, type it **exactly** as shown below. Run the code after each time to make
-sure it runs. You'll realize how easy it is to forget parentheses or braces. Syntax
+- Goal: Practice typing the syntax for conditionals. 
+- Task: Type each snippet 10 times each to
+burn the muscle memory into your typing fingers! 
+- Note: Be sure to use proper spacing and
+indentation, type it **exactly** as shown below.
+- Note: You'll realize how easy it is to forget parentheses or braces. Syntax
 errors like this will cause your code to be totally misunderstood by the computer.
-Practice, practice, practice!
+
 ```js
 let num = 11; // feel free to change the value of this variable
 if (num > 5) {
@@ -182,10 +195,13 @@ if (num < 0) {
 ```
 
 ### Task 5: Function Muscle Memory
-Practice typing the syntax for functions. **Type each snippet 10 times.** Focus on using
-proper style and indentation. Be sure to test your code by running it after
-each repetition. You'll be surprised and also annoyed at what details you missed!
-Learn from those typos.
+
+- Goal: Practice typing the syntax for functions. 
+- Task: Type each snippet 10 times. 
+- Note: Focus on using proper style and indentation. Be sure to test your code by running it after
+each repetition.
+- Note: You'll be surprised and also annoyed at what details you missed! Learn from those typos.
+
 ```js
 function sayHello(name) {
   let msg = 'Hello, ' + name + '. How are you?';
@@ -193,6 +209,7 @@ function sayHello(name) {
 }
 console.log(sayHello('bootcamp prep')); // feel free to change the string being passed
 ```
+
 ```js
 function checkNumber(num) {
   if (num > 0) {
@@ -238,4 +255,8 @@ function evenCaps(sentence) {
 }
 ```
 
-### Tasks 6: Complete all JavaScript Problems
+### (Optional) Tasks 6: More JavaScript Challenge Problems
+
+- Goal: Practice working through a series of progressively more challenging JS coding problems 
+- Task: Pseudo-code and find a working solution. 
+- Note: These problems may be review, but practice writing these solutions with your own skills rather than searching for an answer online, or looking back at an earlier code sample.  
